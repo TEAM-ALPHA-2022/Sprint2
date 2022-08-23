@@ -9,25 +9,32 @@ public class TestDinero {
         MovimientoDinero movimiento2 = new MovimientoDinero("userTest",100000,"concepTest");
         MovimientoDinero movimiento3 = new MovimientoDinero("userTest2",-45000,"concepTest2");
         //\2. Leer y modificar el monto del dinero
-        //2.1) Forma básica
-        System.out.println("MONTO");
-        System.out.println("--------------------------------------------------------");
-        System.out.println();
-        System.out.println("MONTO 1 OPCIÓN");
-        System.out.println("--------------------------------------------------------");
-        System.out.println("El monto es de: $" + movimiento2.getMonto() + " pesos");
-        movimiento2.setMonto(25000);
-        System.out.println("El monto modificado es de: $" + movimiento2.getMonto() + " pesos");
-        System.out.println("--------------------------------------------------------");
-        System.out.println();
-        System.out.println("MONTO 2 OPCIÓN");
-        System.out.println("--------------------------------------------------------");
-        //2.2) Forma dinámica
-        movimiento1.realizarMovimiento();
-        movimiento1.modificacionMonto();
-        System.out.println("El monto modificado es de: $" + movimiento1.getMonto() + " pesos");
+        System.out.println("MOVIMIENTO DE DINERO");
+        System.out.println(movimiento2.getMonto());
+        movimiento2.setMonto(2000000);
+        System.out.println(movimiento2.getMonto());
         System.out.println();
         System.out.println();
+
+        //2.1) Forma básica -- NO UTILIZAR EN EL MAIN
+//        System.out.println("MONTO");
+//        System.out.println("--------------------------------------------------------");
+//        System.out.println();
+//        System.out.println("MONTO 1 OPCIÓN");
+//        System.out.println("--------------------------------------------------------");
+//        System.out.println("El monto es de: $" + movimiento2.getMonto() + " pesos");
+//        movimiento2.setMonto(25000);
+//        System.out.println("El monto modificado es de: $" + movimiento2.getMonto() + " pesos");
+//        System.out.println("--------------------------------------------------------");
+//        System.out.println();
+//        System.out.println("MONTO 2 OPCIÓN");
+//        System.out.println("--------------------------------------------------------");
+        //2.2) Forma dinámica -- NO UTILIZAR EN EL MAIN
+//        movimiento1.realizarMovimiento();
+//        movimiento1.modificacionMonto();
+//        System.out.println("El monto modificado es de: $" + movimiento1.getMonto() + " pesos");
+//        System.out.println();
+//        System.out.println();
 
         //3.Montos negativos y positivos
         System.out.println("MONTO NEGATIVOS");
@@ -47,7 +54,11 @@ public class TestDinero {
         System.out.println();
 
         //5. Definir usuario encargado del movimiento
+        System.out.println("LECTURA DEL USUARIO");
         System.out.println("El usuario encargado del movimiento fue: " + movimiento2.getUsuario());
+        System.out.println("CAMBIO DEL NOMBRE DEL USUARIO");
+        movimiento2.setUsuario("Change of user name");
+        System.out.println(movimiento2.getUsuario());
 
     }
 }

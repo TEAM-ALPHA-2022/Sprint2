@@ -14,6 +14,7 @@ public class MovimientoDinero {
         this.usuario = usuario;
     }
 
+    //NO UTILIZAR EN EL MAIN
     public void realizarMovimiento(){
         System.out.println("Ingrese su usuario:");
         usuario = myObj.nextLine();
@@ -23,6 +24,7 @@ public class MovimientoDinero {
         concepto = myObj.nextLine();
     }
 
+    //NO UTILIZAR EN EL MAIN
     public void modificacionMonto(){
         System.out.println("Su monton actual es de $" + monto + " pesos, escriba el número 1='ADICIONAR' o 2='RETIRAR' para continuar con el movimiento del monto:");
         int movimiento = myObj.nextInt();
