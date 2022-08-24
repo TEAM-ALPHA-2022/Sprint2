@@ -1,9 +1,6 @@
-public class Empresa {
-    private String nombre_empresa;
-    private String direccion;
 
-    private String telefono;
-    private String nit;
+public class Empresa {
+    private String nombre_empresa, direccion, telefono,nit;
 
     public Empresa(String nombre_empresa, String direccion, String telefono, String nit) {
         this.nombre_empresa = nombre_empresa;
