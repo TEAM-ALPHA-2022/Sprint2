@@ -12,6 +12,7 @@ public class Main {
         emp.setTelefono(TelefonoNuevo);
         emp.setNit(NitNuevo);
         System.out.println(emp.getNombre_empresa()+", "+emp.getDireccion()+", "+emp.getTelefono()+", "+emp.getNit());
+        System.out.println(emp.getNombre_empresa()+", "+emp.getDireccion()+", "+emp.getTelefono()+", "+emp.getNit());
 
         // Prueba en Main para la clase MovimientoDinero
         MovimientoDinero mov = new MovimientoDinero("User1",1.0f,"Retirar dinero");
