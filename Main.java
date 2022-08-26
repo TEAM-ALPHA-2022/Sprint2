@@ -2,7 +2,7 @@ import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args) {
-        // Prueba en Main para la clase Empresa
+        // Empresa
             System.out.println("------------------------------------------");
             System.out.println("CLASE EMPRESA");
             System.out.println("------------------------------------------");
@@ -23,7 +23,7 @@ public class Main {
             System.out.println("");
         System.out.println("Nombre de Empresa : "+ emp.getNombre_empresa()+"\nDirección: "+emp.getDireccion()+"\nTeléfono: "+emp.getTelefono()+"\nNIT: "+emp.getNit());
 
-            // Prueba en Main para la clase Empleado
+        // Empleado
             System.out.println("");
             System.out.println("------------------------------------------");
             System.out.println("CLASE EMPLEADO");
@@ -45,10 +45,7 @@ public class Main {
             System.out.println("");
             System.out.println("Nombre del Empleado : "+ empl.getNombre_empleado()+"\nCorreo: "+empl.getEmail_empleado()+"\nNombre de la Empresa: "+empl.getEmpresa_empleado()+"\nRol del Empleado: "+empl.getRol_empleado());
 
-            //MovimientoDinero mov = new MovimientoDinero(); // En esta línea estoy probando el metodo realizarMovimiento de clase MovimientoDinero
-            //mov.realizarMovimiento();
-
-        // Prueba en Main para la clase MovimientoDinero
+        // MovimientoDinero
             System.out.println("");
             System.out.println("------------------------------------------");
             System.out.println("CLASE MOVIMIENTO DINERO");
