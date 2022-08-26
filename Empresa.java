@@ -1,4 +1,3 @@
-
 public class Empresa {
     private String nombre_empresa, direccion, telefono,nit;
 
