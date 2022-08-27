@@ -59,9 +59,6 @@ public class TestDinero {
 //        System.out.println("CAMBIO DEL NOMBRE DEL USUARIO");
 //        movimiento2.setUsuario("Change of user name");
 //        System.out.println(movimiento2.getUsuario());
-
-
-       //mpresa empleado1 = new Empleado("Test","test","Empresa","test");
+//
     }
 }
-
