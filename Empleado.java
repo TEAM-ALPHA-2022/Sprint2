@@ -2,10 +2,10 @@ public class Empleado {
 
     private String nombre;
     private String email;
-    private String empresa;
+    private Empresa empresa;
     private String rol;
 
-    public Empleado(String nombre, String email, String empresa, String rol) {
+    public Empleado(String nombre, String email, Empresa empresa, String rol) {
         this.nombre = nombre;
         this.email = email;
         this.empresa = empresa;
@@ -28,11 +28,11 @@ public class Empleado {
         this.email = email;
     }
 
-    public String getEmpresa() {
+    public Empresa getEmpresa() {
         return empresa;
     }
 
-    public void setEmpresa(String empresa) {
+    public void setEmpresa(Empresa empresa) {
         this.empresa = empresa;
     }
 
