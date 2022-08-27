@@ -1,6 +1,6 @@
 ## Diagrama Entidad-Relación
 <p align="center">
   <a>
-    <img alt="Diagrama Entidad-Relación" title="Diagrama Entidad-Relación" src="https://drive.google.com/uc?id=1o_v45C9kY5vGw5h_PrmE-JpPf3b4oXUj" width="450">
+    <img alt="Diagrama Entidad-Relación" title="Diagrama Entidad-Relación" src="https://drive.google.com/uc?id=1Qm1Ny6BXJhJOH_p5iRR0qJxiOojuQZ0Z" width="450">
   </a>
 </p>
