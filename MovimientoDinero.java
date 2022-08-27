@@ -1,12 +1,7 @@
-import java.util.Scanner;
 
 public class MovimientoDinero {
     private float monto;
     public String usuario, concepto;
-    Scanner myObj = new Scanner(System.in);
-    public MovimientoDinero(){
-
-    }
 
     public MovimientoDinero(String usuario, float monto, String concepto) {
         this.monto = monto;
