@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,54 +6,54 @@ public class Main {
             System.out.println("CLASE EMPRESA");
             System.out.println("------------------------------------------");
             System.out.println("*Instancia Principal* - (Empresa)");
-            System.out.println("");
+            System.out.println(" ");
         Empresa emp = new Empresa("Alpha Co","Carrera 30","3001234567","909.101.303-3");
-        System.out.println("Nombre de Empresa : "+ emp.getNombre_empresa()+"\nDirección: "+emp.getDireccion()+"\nTeléfono: "+emp.getTelefono()+"\nNIT: "+emp.getNit());
+        System.out.println("Nombre de Empresa : "+ emp.getNombre()+"\nDirección: "+emp.getDireccion()+"\nTeléfono: "+emp.getTelefono()+"\nNIT: "+emp.getNit());
         String NombreNuevo = "Alpha LLC";
         String DireccionNueva = "Avenida Caracas";
         String TelefonoNuevo= "3009876543";
         String NitNuevo = "901.202.404-4";
-        emp.setNombre_empresa(NombreNuevo);
+        emp.setNombre(NombreNuevo);
         emp.setDireccion(DireccionNueva);
         emp.setTelefono(TelefonoNuevo);
         emp.setNit(NitNuevo);
-            System.out.println("");
+            System.out.println(" ");
             System.out.println("*Instancia Modificada* - (Empresa)");
-            System.out.println("");
-        System.out.println("Nombre de Empresa : "+ emp.getNombre_empresa()+"\nDirección: "+emp.getDireccion()+"\nTeléfono: "+emp.getTelefono()+"\nNIT: "+emp.getNit());
+            System.out.println(" ");
+        System.out.println("Nombre de Empresa : "+ emp.getNombre()+"\nDirección: "+emp.getDireccion()+"\nTeléfono: "+emp.getTelefono()+"\nNIT: "+emp.getNit());
 
             // Prueba en Main para la clase Empleado
-            System.out.println("");
+            System.out.println(" ");
             System.out.println("------------------------------------------");
             System.out.println("CLASE EMPLEADO");
             System.out.println("------------------------------------------");
             System.out.println("*Instancia Principal* - (Empleado)");
-            System.out.println("");
+            System.out.println(" ");
             Empleado empl = new Empleado("Pepe","pepe@gmail.com","Google","Junior Developer");
-            System.out.println("Nombre del Empleado : "+ empl.getNombre_empleado()+"\nCorreo: "+empl.getEmail_empleado()+"\nNombre de la Empresa: "+empl.getEmpresa_empleado()+"\nRol del Empleado: "+empl.getRol_empleado());
+            System.out.println("Nombre del Empleado : "+ empl.getNombre()+"\nCorreo: "+empl.getEmail()+"\nNombre de la Empresa: "+empl.getEmpresa()+"\nRol del Empleado: "+empl.getRol());
             String NuevoNombreEmpleado = "Juan";
             String NuevoEmailEmpleado = "pepe@outlook.com";
             String NuevaEmpresaEmpleado = "Microsoft";
             String NuevoRolEmpleado = "Senior Developer";
-            empl.setNombre_empleado(NuevoNombreEmpleado);
-            empl.setEmail_empleado(NuevoEmailEmpleado);
-            empl.setEmpresa_empleado(NuevaEmpresaEmpleado);
-            empl.setRol_empleado(NuevoRolEmpleado);
-            System.out.println("");
+            empl.setNombre(NuevoNombreEmpleado);
+            empl.setEmail(NuevoEmailEmpleado);
+            empl.setEmpresa(NuevaEmpresaEmpleado);
+            empl.setRol(NuevoRolEmpleado);
+            System.out.println(" ");
             System.out.println("*Instancia Modificada* - (Empleado)");
-            System.out.println("");
-            System.out.println("Nombre del Empleado : "+ empl.getNombre_empleado()+"\nCorreo: "+empl.getEmail_empleado()+"\nNombre de la Empresa: "+empl.getEmpresa_empleado()+"\nRol del Empleado: "+empl.getRol_empleado());
+            System.out.println(" ");
+            System.out.println("Nombre del Empleado : "+ empl.getNombre()+"\nCorreo: "+empl.getEmail()+"\nNombre de la Empresa: "+empl.getEmpresa()+"\nRol del Empleado: "+empl.getRol());
 
             //MovimientoDinero mov = new MovimientoDinero(); // En esta línea estoy probando el metodo realizarMovimiento de clase MovimientoDinero
             //mov.realizarMovimiento();
 
         // Prueba en Main para la clase MovimientoDinero
-            System.out.println("");
+            System.out.println(" ");
             System.out.println("------------------------------------------");
             System.out.println("CLASE MOVIMIENTO DINERO");
             System.out.println("------------------------------------------");
             System.out.println("*Instancia Principal* - (Movimiento Dinero)");
-            System.out.println("");
+            System.out.println(" ");
         MovimientoDinero mov = new MovimientoDinero("User1",1000000,"Retirar dinero");
         System.out.println("Nombre del Usuario : "+ mov.getUsuario()+"\nMonto: $"+mov.getMonto()+"\nConcepto del movimiento: "+mov.getConcepto());
         String NuevoUsuario = "User2";
@@ -63,9 +62,9 @@ public class Main {
         mov.setUsuario(NuevoUsuario);
         mov.setMonto(NuevoMonto);
         mov.setConcepto(NuevoConcepto);
-            System.out.println("");
+            System.out.println(" ");
             System.out.println("*Instancia Modificada* - (Movimiento Dinero)");
-            System.out.println("");
+            System.out.println(" ");
         System.out.println("Nombre del Usuario : "+ mov.getUsuario()+"\nMonto: $"+mov.getMonto()+"\nConcepto del movimiento: "+mov.getConcepto());
 
 
