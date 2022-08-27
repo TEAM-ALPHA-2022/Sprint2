@@ -2,6 +2,7 @@
 public class Main {
     public static void main(String[] args) {
         // Prueba en Main para la clase Empresa
+        // Prueba en Main para la clase Empresa
         System.out.println("------------------------------------------");
         System.out.println("CLASE EMPRESA");
         System.out.println("------------------------------------------");
