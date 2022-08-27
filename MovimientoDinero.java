@@ -1,9 +1,10 @@
 
 public class MovimientoDinero {
     private float monto;
-    public String usuario, concepto;
+    public Empleado usuario;
+    public String concepto;
 
-    public MovimientoDinero(String usuario, float monto, String concepto) {
+    public MovimientoDinero(float monto, String concepto, Empleado usuario) {
         this.monto = monto;
         this.concepto = concepto;
         this.usuario = usuario;
@@ -25,11 +26,11 @@ public class MovimientoDinero {
         this.concepto = concepto;
     }
 
-    public String getUsuario() {
+    public Empleado getUsuario() {
         return usuario;
     }
 
-    public void setUsuario(String usuario) {
+    public void setUsuario(Empleado usuario) {
         this.usuario = usuario;
     }
 
