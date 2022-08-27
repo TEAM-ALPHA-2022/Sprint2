@@ -2,7 +2,6 @@
 public class Main {
     public static void main(String[] args) {
         // Prueba en Main para la clase Empresa
-        // Prueba en Main para la clase Empresa
         System.out.println("------------------------------------------");
         System.out.println("CLASE EMPRESA");
         System.out.println("------------------------------------------");
@@ -44,6 +43,10 @@ public class Main {
         System.out.println("*Instancia Modificada* - (Empleado)");
         System.out.println(" ");
         System.out.println("Nombre del Empleado : "+ empleado1.getNombre()+"\nCorreo: "+empleado1.getEmail()+"\nNombre de la Empresa: "+ emp.getNombre() +"\nRol del Empleado: "+ empleado1.getRol());
+
+
+        //MovimientoDinero mov = new MovimientoDinero(); // En esta línea estoy probando el metodo realizarMovimiento de clase MovimientoDinero
+        //mov.realizarMovimiento();
 
         //Prueba en Main para la clase MovimientoDinero
         System.out.println(" ");
