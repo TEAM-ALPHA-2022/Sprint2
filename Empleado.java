@@ -1,46 +1,46 @@
 public class Empleado {
 
-    private String nombre_empleado;
-    private String email_empleado;
-    private String empresa_empleado;
-    private String rol_empleado;
+    private String nombre;
+    private String email;
+    private String empresa;
+    private String rol;
 
-    public Empleado(String nombre_empleado, String email_empleado, String empresa_empleado, String rol_empleado) {
-        this.nombre_empleado = nombre_empleado;
-        this.email_empleado = email_empleado;
-        this.empresa_empleado = empresa_empleado;
-        this.rol_empleado = rol_empleado;
+    public Empleado(String nombre, String email, String empresa, String rol) {
+        this.nombre = nombre;
+        this.email = email;
+        this.empresa = empresa;
+        this.rol = rol;
     }
 
-    public String getNombre_empleado() {
-        return nombre_empleado;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setNombre_empleado(String nombre_empleado) {
-        this.nombre_empleado = nombre_empleado;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
-    public String getEmail_empleado() {
-        return email_empleado;
+    public String getEmail() {
+        return email;
     }
 
-    public void setEmail_empleado(String email_empleado) {
-        this.email_empleado = email_empleado;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public String getEmpresa_empleado() {
-        return empresa_empleado;
+    public String getEmpresa() {
+        return empresa;
     }
 
-    public void setEmpresa_empleado(String empresa_empleado) {
-        this.empresa_empleado = empresa_empleado;
+    public void setEmpresa(String empresa) {
+        this.empresa = empresa;
     }
 
-    public String getRol_empleado() {
-        return rol_empleado;
+    public String getRol() {
+        return rol;
     }
 
-    public void setRol_empleado(String rol_empleado) {
-        this.rol_empleado = rol_empleado;
+    public void setRol(String rol) {
+        this.rol = rol;
     }
 }
