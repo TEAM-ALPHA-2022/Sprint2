@@ -63,6 +63,5 @@ public class Main {
         System.out.println("*Instancia Modificada* - (Movimiento Dinero)");
         System.out.println(" ");
         System.out.println("Nombre del Usuario : "+ empleado1.getNombre() +"\nMonto: $"+movd.getMonto()+"\nConcepto del movimiento: "+movd.getConcepto());
-
     }
 }
