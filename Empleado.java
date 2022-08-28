@@ -43,4 +43,5 @@ public class Empleado {
     public void setRol(String rol) {
         this.rol = rol;
     }
+    
 }
