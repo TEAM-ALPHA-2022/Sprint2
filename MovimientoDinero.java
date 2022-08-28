@@ -33,5 +33,4 @@ public class MovimientoDinero {
     public void setUsuario(Empleado usuario) {
         this.usuario = usuario;
     }
-
 }
